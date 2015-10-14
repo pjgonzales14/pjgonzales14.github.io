@@ -1,8 +1,8 @@
-/*take out all borders when done*/
+/*take out all borders when done, but not button border*/
 body {
     font-family: "Carme", sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 40px;
     background-color: black;
 }
 /*header&nav*/
@@ -10,7 +10,6 @@ header {
     border: 2px green solid;
     width: 100%;
     height: 300px;
-    margin-left: 20px;
     margin-bottom: 0px;
 }
 header h2 {
@@ -33,12 +32,49 @@ header a {
 }
 /*vintagepicture-whole*/
 .wholepg {
-    background-image: url("../img/austinmoto-bike1.vintage.jpg");
-    padding: 550px 500px; 
+    background-image: url("../img/austinmoto-bike1.2vintage.jpg");
+    padding: 650px 600px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     border: 2px red solid;
+    font-size: 100px;
+    color: black;
 }
+.bb {
+    border: 2px aqua solid;
+    width: 500px;
+    height: 200px;
+    margin: 20px 20px;
+    font-size: 50px;
+}
+/*2nd section*/
+.secondsection {
+    border: green 2px solid;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+#logo {
+    float: left;
+    width: 1000px;
+    height: 1000px;
+    border: green 2px solid;
+    margin-right: 500px;
+}
+#logo h2 {
+    float: right;
+    font-size: 100px; 
+}
+
+#logo p {
+    float: right;
+    white-space: pre-wrap;
+    text-align: center;
+}
+    
+    
+
+    
+    
     
