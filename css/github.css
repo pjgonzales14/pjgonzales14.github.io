@@ -6,6 +6,12 @@ body {
     background-color: black;
 }
 /*header&nav*/
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+    
 header {
     border: 2px green solid;
     width: 100%;
@@ -32,7 +38,8 @@ header a {
 }
 /*vintagepicture-whole*/
 .wholepg {
-    background-image: url("../img/austinmoto-bike1.2vintage.jpg");
+    background-image:  url(../img/austinmoto-bike1.2vintage.jpg);
+    box-shadow: inset 1000px 1000px rgba(0,0,0,0.2);
     padding: 650px 600px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -50,10 +57,14 @@ header a {
     font-size: 50px;
 }
 /*2nd section*/
-.secondsection {
+.clear-fix {
+    overflow: auto;
+}
+.second {
     border: green 2px solid;
     font-size: 60px;
     font-family: sans-serif;
+    margin-top: 500px; 
 }
 #logo {
     float: left;
@@ -61,6 +72,10 @@ header a {
     height: 1000px;
     border: green 2px solid;
     margin-right: 500px;
+    text-align: center;
+}
+#logo div div {
+    margin-top: 200px;
 }
 #logo h2 {
     float: right;
@@ -72,6 +87,22 @@ header a {
     white-space: pre-wrap;
     text-align: center;
 }
+#third {
+    margin-top: 500px;
+    font-size: 40px;
+}
+    
+#austin {
+    margin-top: 200px;
+    padding-top: 100px;
+}
+.four {
+    width: 25%;
+    text-align: center;
+    float: left;
+    font-size: 25px;
+}
+
     
     
 
