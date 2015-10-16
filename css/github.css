@@ -40,7 +40,7 @@ header a {
 /*vintagepicture-whole*/
 .wholepg {
     background-image:  url(../img/austinmoto-bike1.2vintage.jpg);
-    box-shadow: inset 10000px 1000px rgba(0,0,0,0.2);
+    box-shadow: inset 10000px 10000px rgba(0,0,0,0.2);
     padding: 650px 600px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -90,6 +90,10 @@ header a {
     float: left;
     font-size: 25px;
 }
+#austin {
+    margin-top: 200px;
+    padding-top: 100px;
+}
 /*3rd section*/
 #third  {
     float: left;
@@ -112,10 +116,7 @@ header a {
 }
     
     
-#austin {
-    margin-top: 200px;
-    padding-top: 100px;
-}
+
 
 
     
