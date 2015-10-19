@@ -2,7 +2,7 @@
 body {
     font-family: "Carme", sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 16px;
     background-color: black;
 }
 /*header&nav*/
@@ -14,69 +14,63 @@ body {
 }
     
 header {
-    border: 2px green solid;
     width: 100%;
-    height: 300px;
+    height: 100px;
     margin-bottom: 0px;
 }
 header h1 {
-    font-size: 100px;
+    font-size: 50px;
     float: left;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    border: 2px green solid;
 }
 header a {
-    font-size: 80px;
+    font-size: 20px;
     float: right;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 20px;
     padding-bottom: 0px;
     text-decoration: none; 
-    border: 2px green solid;
 }
 /*vintagepicture-whole*/
 .wholepg {
     background-image:  url(../img/austinmoto-bike1.2vintage.jpg);
     box-shadow: inset 10000px 10000px rgba(0,0,0,0.2);
-    padding: 650px 600px; 
+    padding: 50px 0px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    border: 2px red solid;
-    font-size: 100px;
+    font-size: 40px;
 }
 .bb {
-    border: 2px aqua solid;
-    width: 500px;
-    height: 200px;
+    border: 2px black solid;
+    width: 200px;
+    height: 100px;
     margin: 20px 20px;
-    font-size: 50px;
+    font-size: 20px;
 }
 /*2nd section*/
 .second {
-    border: green 2px solid;
-    font-size: 60px;
+    font-size: 20px;
     font-family: sans-serif;
-    margin-top: 400px; 
+    margin-top: 50px; 
 }
 #logo {
     float: left;
-    width: 1000px;
-    height: 1000px;
-    border: green 2px solid;
-    margin-right: 500px;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
     text-align: center;
 }
 #logo div div {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 #logo h2 {
     float: right;
-    font-size: 100px; 
+    font-size: 40px; 
 }
 
 #logo p {
@@ -88,29 +82,30 @@ header a {
     width: 22%;
     text-align: center;
     float: left;
-    font-size: 25px;
+    font-size: 16px;
 }
 #austin {
-    margin-top: 200px;
-    padding-top: 100px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+#austin p {
+    white-space: pre-wrap
 }
 /*3rd section*/
 #third  {
     float: left;
-    margin-top: 400px;
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 65px;
     font-size: 40px;
-    border: yellow;
 }
 
 #third div {
     background-color: grey;
-    border: yellow;
    /* width: 1000px;
     height: 500px; */
     text-align: center;
-    margin-right: 120px;
-    font-size: 50px;
+    margin-right: 30px;
+    font-size: 16px;
 }
 #third div img {
     width: 100%
@@ -118,23 +113,18 @@ header a {
 /*4th section*/
 .social {
     float: left;
-    margin-top: 400px;
+    margin-top: 100px;
     font-size 50px;
-    border: white 2px solid;
     background-color: #5C5C8A;
     width: 100%;  
 }
 .social div {
     text-align: center;
-    padding-right: 300px; 
-    border: white 2px solid;
 }
 .social h2 {
-    font-size: 100px;
+    font-size: 30px;
 }
 .social div img {
-    width: 1000px; 
-    height: 400px; 
     padding-left: 60px;
 }
 .social time {
@@ -157,21 +147,21 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
-    border: 2px blue solid;
     font size: 100px;  
-    padding: 600px 600px;
-    margin-top: 3500px; 
+    padding: 100px 570px;
+    margin-top: 900px; 
 }
 footer p{
-    font-size: 100px;
+    font-size: 25px;
 }
 footer button {
-    width: 500px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     font-size: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
     color: white;
+    float: left;
+    display: inline;
+    float: left:
 }
 #yes {
     background-color: green;
