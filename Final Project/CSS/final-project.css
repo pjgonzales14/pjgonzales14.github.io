@@ -2,6 +2,7 @@ html, body, main {
     height: 100%;
 
 }
+/*my favorite quote*/
 #hero {
     margin-top: 70px;
     background-image: url('../IMG/what%20are%20you%20looking%20at.jpg');
@@ -11,11 +12,13 @@ html, body, main {
     height: 100%; 
     text-align: center; 
 }
-.col-md-6 {
+/*About section*/
+.about {
     margin-top: 40px; 
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
+    text-align: center; 
 }
-.col-md-6 img {
+.about img {
     width: 100%; 
     padding-right: 50px; 
 }
@@ -24,4 +27,12 @@ html, body, main {
     text-align: center;
     border-radius: 
 }
+/*my interests*/
+.interest {
+    text-align: center; 
+}
+.interest h3 {
+    font-family: 'Quicksand', sans-serif; 
+} 
+
 
