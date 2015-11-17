@@ -7,7 +7,7 @@ html, body, main {
 /*my favorite quote*/
 #hero {
     margin-top: 70px;
-    background-image: url('../IMG/what%20are%20you%20looking%20at.jpg');
+    background-image: url('../IMG/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -24,6 +24,12 @@ html, body, main {
     width: 100%; 
     padding-right: 50px; 
 }
+/*map of kaufman*/
+.kaufman{
+    text-align: center;
+    font-family: 'Open Sans';
+}
+/*laptop view*/
 .col-md-3 {
     width: 25%; 
     text-align: center; 
@@ -31,13 +37,42 @@ html, body, main {
 /*my interests*/
 .interest {
     text-align: center; 
+    width: 100%; 
 }
-.interest h3 {
-    font-family: 'Quicksand', sans-serif; 
-} 
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+p {
+    font-family: 'Amatic', sans-serif;
+}
+q {
+    font-family: 'Open Sans', sans-serif; 
+}
 .abilities {
     font-family: 'Quicksand', sans-serif;
 }
+#enemy {
+    margin-top: 70px;
+    background-image: url('../IMG/bottom-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 75%; 
+    text-align: center;
+}
+
+/*phone view*/
+@media (min-width: 320px) and (max-width: 620px) {  .col-xs-12: 
+{   width: 100%; 
+    }
+}
+/*tablet view*/
+@media (min-width: 621px) and (max-width: 991px){   .col-sm-6 {
+    width: 50%;
+}
+    
+}
+
 
 
 
