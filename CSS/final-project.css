@@ -39,6 +39,10 @@ html, body, main {
     text-align: center; 
     width: 100%; 
 }
+.interest {
+    max-width: 100%;
+    height: auto;
+}
 h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
 }
@@ -62,16 +66,18 @@ q {
 }
 
 /*phone view*/
-@media (min-width: 320px) and (max-width: 620px) {  .col-xs-12: 
+@media (max-width: 620px) 
+    {  .col-sm-12: 
 {   width: 100%; 
     }
 }
 /*tablet view*/
-@media (min-width: 621px) and (max-width: 991px){   .col-sm-6 {
+/*@media (max-width: 991px)
+{   .col-sm-6 {
     width: 50%;
 }
     
-}
+}*/
 
 
 
